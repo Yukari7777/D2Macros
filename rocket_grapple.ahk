@@ -6,8 +6,9 @@ ingame_sens := 4
 ; This needs to be adjusted for maximize reliability
 ; The value was induced initally as 268(67 * 4)
 ; Tested with this rocket: https://d2foundry.gg/w/3489657138?p=3809316345,3796465595,3436462433,598607952,1607056502&m=1588595445&mw=0
-; I need to enhance that rocket first though.
-CONSTANT := 270 
+; I need to enhance that rocket first though(because my rocket don't have enhanced surplus)
+; reference: https://www.youtube.com/watch?v=ItN-K-WSCkM
+CONSTANT := 266
 DELTA := CONSTANT / ingame_sens
 
 CapsLock::
