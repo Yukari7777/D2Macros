@@ -3,9 +3,9 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-loop_count := 6
-craft_at_once := 3
-gear_index := 0 ;0 = helmet, 4 = class armor
+loop_count := 1
+craft_at_once := 4
+gear_index := 2 ;0 = helmet, 4 = class armor
 screen_loading_mult := 1 ; adjust this if loading is slow.
 
 GLIMMER_COST := 777 + 1000 + 2500 + 3000
