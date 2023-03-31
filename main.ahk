@@ -7,3 +7,4 @@ invoke(dir) {
 
 F9::Reload
 LAlt & CapsLock::invoke("movement/rocket_grapple.ahk")
+LAlt & X::invoke("movement/air_move_skating.ahk")
