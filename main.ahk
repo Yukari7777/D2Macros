@@ -6,8 +6,12 @@ invoke(dir) {
 }
 
 F9::Reload
-LAlt & CapsLock::invoke("movement/rocket_grapple.ahk")
-LAlt & T::invoke("movement/air_move_skating.ahk")
-LAlt & Q::invoke("movement/super_skating.ahk")
-LAlt & Tab::AltTab
+
+LAlt & Tab::AltTabMenu
 LAlt & Esc::Escape
+
+~LAlt & ~CapsLock::invoke("movement/rocket_grapple.ahk")
+~LAlt & ~T::invoke("movement/air_move_skating.ahk")
+~LAlt & ~Q::invoke("movement/super_skating.ahk")
+LAlt & Numpad1::invoke("ui/long_click.ahk")
+LAlt & Numpad2::invoke("ui/long_press.ahk")f

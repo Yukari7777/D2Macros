@@ -1,9 +1,4 @@
-﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
-; #Warn  ; Enable warnings to assist with detecting common errors.
-SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
-SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
-
-loop_count := 1
+﻿loop_count := 1
 craft_at_once := 4
 gear_index := 2 ;0 = helmet, 4 = class armor
 screen_loading_mult := 1 ; adjust this if loading is slow.
