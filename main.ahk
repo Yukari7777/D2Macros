@@ -9,3 +9,5 @@ F9::Reload
 LAlt & CapsLock::invoke("movement/rocket_grapple.ahk")
 LAlt & T::invoke("movement/air_move_skating.ahk")
 LAlt & Q::invoke("movement/super_skating.ahk")
+LAlt & Tab::AltTab
+LAlt & Esc::Escape
