@@ -4,6 +4,7 @@ Destiny 2 Macro scripts written in AutoHotkey v2.
 Primarily it has been used in personal, working only in my environment. \
 But I've decided to publish this scripts for the better compatibility, modularity, stability.
 
+# Features
 Currently WIP with upcoming feature :
 - Documentation with more descriptive expression.
 - More resolution support like 2k, 4k or even the lower with graphical config UI. Currently working only in `1920x1080`.
@@ -11,8 +12,8 @@ Currently WIP with upcoming feature :
 - More utility/afk scripts like `afk_rumble`
 - Internalization(for Korean)
 
-# How to use?
-1. Download&install [AutoHotkey](https://www.autohotkey.com/), Download v2. **You need to install v2**
+# How to use?(Installation)
+1. Download & install [AutoHotkey](https://www.autohotkey.com/), Download v2. **You need to install v2**
 2. Download this repository as .zip(and unzip it) or clone.
 3. Execute main.ahk
 4. (temp) Configure keybinds in `config/`. You need to set this manually for now(I'm using `B` key as grenade lol).
