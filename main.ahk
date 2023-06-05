@@ -16,9 +16,6 @@ ingame_sens := FileRead(Format("{1}\config\ingame_sens.txt", A_ScriptDir))
 
 F9::Reload
 
-~LAlt & ~Tab::AltTab
-~LAlt & ~Esc::Escape
-
 Hotkey Format("!{1}", air_move_key), _ => invoke("movement/skating.ahk", air_move_key, 0)
 Hotkey Format("!{1}", super_key), _ => invoke("movement/skating.ahk", super_key, 1)
 Hotkey Format("^!{1}", air_move_key), _ => invoke("movement/flat_skating.ahk", air_move_key, 0)
@@ -26,4 +23,4 @@ Hotkey Format("^!{1}", super_key), _ => invoke("movement/flat_skating.ahk", supe
 
 !CapsLock::invoke("movement/rocket_grapple.ahk", granade_key, ingame_sens)
 LAlt & Numpad1::invoke("ui/long_click.ahk")
-LAlt & Numpad2::invoke("ui/long_press.ahk") 
+LAlt & Numpad2::invoke("ui/long_press.ahk")
