@@ -1,8 +1,9 @@
-air_move_key := FileRead(Format("{1}\..\config\air_move.txt", A_ScriptDir))
+;; Try not to invoke immediately after swapping to sword. At least wait about 0.5 seconds
+air_move_key := A_Args[1]
 
-Click "Right"
-Sleep 75
-Send "{Space Down}"
-Send air_move_key
-Send "{Space Up}"
-Send 2
+Click "Down Right"
+Sleep 120
+Click "Up Right"
+Send "{Space}"
+Sleep 10
+Send air_move_key 

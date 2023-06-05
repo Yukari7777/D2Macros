@@ -1,4 +1,4 @@
-super_key := FileRead(Format("{1}\..\config\super.txt", A_ScriptDir))
+super_key := A_Args[1]
 
 Click "Right"
 Sleep 50

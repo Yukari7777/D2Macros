@@ -1,5 +1,5 @@
-granade_key := FileRead(Format("{1}\..\config\granade.txt", A_ScriptDir))
-ingame_sens := FileRead(Format("{1}\..\config\ingame_sens.txt", A_ScriptDir))
+granade_key := A_Args[1]
+ingame_sens := A_Args[2]
 
 CONSTANT := 230
 DELTA := CONSTANT / ingame_sens
