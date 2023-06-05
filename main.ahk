@@ -14,4 +14,4 @@ LAlt & Esc::Escape
 ~LAlt & ~T::invoke("movement/air_move_skating.ahk")
 ~LAlt & ~Q::invoke("movement/super_skating.ahk")
 LAlt & Numpad1::invoke("ui/long_click.ahk")
-LAlt & Numpad2::invoke("ui/long_press.ahk")f
+LAlt & Numpad2::invoke("ui/long_press.ahk")

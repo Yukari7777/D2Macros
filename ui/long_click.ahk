@@ -1,5 +1,5 @@
 ﻿description := "Please enter the delay in milliseconds. `nRecommended value: 1000, 3000, 7000(default) `nPress RClick, F9, Numpad2 to escape"
-duration := InputBox(description, "Set delay", "", 7000).value
+duration := InputBox(description, "Long Click: set delay", "", 7000).value
 
 loop {
 	Click "Down"

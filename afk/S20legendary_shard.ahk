@@ -1,4 +1,4 @@
-﻿Glimmer := 26
+﻿Glimmer := 24
 ; 제작 미광체 비용: 777
 ; 1사이클 만들때 필요한 미광체: 777 * 9 = 6993
 ; 1사이클 갈면 얻는 미광체: 2250
@@ -12,32 +12,15 @@ F9::Reload
 Numpad1::
 F8::{
 	while true {
-		Send "{w down}"
-		Sleep 150
-		Send "{w up}"
-		Sleep 50
-		Send "{e down}"
-		Sleep 500
-		Send "{e up}"
-		Sleep 2500
-
-		MouseMove 1200, 170, 0 ;라훌의 "전설조각 -> 미광체 구매 버튼"
-		Sleep 800
-		Loop Glimmer {
-			Sleep 700
-			Click
-		}
-		Sleep 300
-
 		Loop Create {
 			Send "{Del}" ;"수집품"
 			Sleep 1000
 			MouseMove 900, 400 ;"방어구"
 			Sleep 300
 			Click
-			Sleep 800
+			Sleep 1000
 			MouseMove 400, 630 ;"이벤트"
-			Sleep 300
+			Sleep 400
 			Click
 			Send "{Right}"
 			MouseMove 720, 670 ;만들 아이템 위치
@@ -55,7 +38,7 @@ F8::{
 			MouseMove 1400, 770 ;직방에 마우스 올리기
 			Sleep 500
 			MouseMove 1500, 770 ;첫번째 직방에 마우스 올리기
-			Sleep 50
+			Sleep 100
 			Loop 9 {
 				Send "{f down}"
 				Sleep 1050
@@ -68,5 +51,22 @@ F8::{
 		Sleep 500
 		Send "{Esc}"
 		Sleep 2000
+
+		Send "{w down}"
+		Sleep 150
+		Send "{w up}"
+		Sleep 50
+		Send "{e down}"
+		Sleep 500
+		Send "{e up}"
+		Sleep 2500
+
+		MouseMove 1200, 170, 0 ;라훌의 "전설조각 -> 미광체 구매 버튼"
+		Sleep 800
+		Loop Glimmer {
+			Sleep 700
+			Click
+		}
+		Sleep 300
 	}
 }

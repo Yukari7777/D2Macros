@@ -1,5 +1,5 @@
-﻿loop_count := 1
-craft_at_once := 4
+﻿loop_count := 2
+craft_at_once := 2
 gear_index := 2 ;0 = helmet, 4 = class armor
 screen_loading_mult := 1 ; adjust this if loading is slow.
 
