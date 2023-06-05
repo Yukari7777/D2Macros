@@ -7,8 +7,8 @@ invoke(dir) {
 
 F9::Reload
 
-LAlt & Tab::AltTabMenu
-LAlt & Esc::Escape
+~LAlt & ~Tab::AltTab
+~LAlt & ~Esc::Escape
 
 ~LAlt & ~CapsLock::invoke("movement/rocket_grapple.ahk")
 ~LAlt & ~T::invoke("movement/air_move_skating.ahk")
