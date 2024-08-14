@@ -1,3 +1,4 @@
+#SingleInstance Ignore
 ;; Implements https://github.com/ImPleby/QoL-Macros/tree/main/Destiny%202
 ;; Try not to invoke immediately after swapping to sword. At least wait about 0.5 seconds
 key := A_Args[1]

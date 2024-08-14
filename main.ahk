@@ -1,3 +1,5 @@
+#Requires AutoHotkey v2.0
+#SingleInstance Ignore
 InstallDir := RegRead("HKLM\SOFTWARE\AutoHotkey", "InstallDir", "")
 AhkPath := InstallDir ? InstallDir "\v2\AutoHotkey.exe" : ""
 
@@ -18,9 +20,10 @@ F9::Reload
 
 Hotkey Format("!{1}", air_move_key), _ => invoke("movement/skating.ahk", air_move_key, 0)
 Hotkey Format("!{1}", super_key), _ => invoke("movement/skating.ahk", super_key, 1)
-Hotkey Format("^!{1}", air_move_key), _ => invoke("movement/flat_skating.ahk", air_move_key, 0)
+Hotkey Format("+{1}", air_move_key), _ => invoke("movement/flat_skating.ahk", air_move_key, 0)
 Hotkey Format("^!{1}", super_key), _ => invoke("movement/flat_skating.ahk", super_key, 1)
 
+4::invoke("movement/swap.ahk", granade_key)
 !CapsLock::invoke("movement/rocket_grapple.ahk", granade_key, ingame_sens)
 LAlt & Numpad1::invoke("ui/long_click.ahk")
 LAlt & Numpad2::invoke("ui/long_press.ahk")

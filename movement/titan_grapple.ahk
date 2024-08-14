@@ -1,3 +1,4 @@
+#SingleInstance Ignore
 ;; https://gall.dcinside.com/mgallery/board/view/?id=destiny&no=2505356
 ;; Titan, having an enemy aimed at that'll be killed with one tap.
 uncharged_melee_key := A_Args[1]
